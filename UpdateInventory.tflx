@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest manifest-version="0.1" xmlns="http://wwww.tableau.com/xml/addin_manifest">
+  <tableau-addin id="com.wayfair.suppliers.updateinventory" addin-version="0.1.0">
+    <default-locale>en_US</default-locale>
+    <name resource-id="name"/>
+    <description>Update Inventory</description>
+    <addin-type>
+      <dashboard-addin/>
+    </addin-type>
+    <author name="ypeng" email="ypeng@wayfair.com" organization="wayfair" website="www.wayfair.com"/>
+    <min-api-version>0.1</min-api-version>
+    <source-location>
+      <url>http://frelardwayfair.azurewebsites.net/inventory/</url>
+    </source-location>
+    <icon>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</icon>
+  </tableau-addin>
+  <resources>
+    <resource id="name">
+      <text locale="en_US">Update Inventory</text>
+    </resource>
+  </resources>
+</manifest>
